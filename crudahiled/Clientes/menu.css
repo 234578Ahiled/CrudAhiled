@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    }
+    #menu{
+    widht:200px;
+    height:100%;
+    position:fixed;
+    background:currentColor;
+    }
+    #menu ul a{
+    padding-top:25px;
+    margin-left:-30px;
+    margin-right:20px;
+  }
+  #menu ul a{
+  text-decoration:none;
+  color:rgb(197, 62, 62);
+  font:16px verdana;
+  display:block;
+  background:#d49159;
+  margin-bottom:10px;
+  padding:10px 20px 10px 540px;
+  border-radius:15px;
+  transition:background-color .6s, margin-left .6s, margin-right .6s ;
+  -webkit-transition:background-color .6s, margin-left .6s, margin-right .6s ;
+  -moz-transition:background-color .6s margin-left .6s, margin-right .6s ;
+  -o-transition:background-color .6s margin-left .6s, margin-right .6s ;;
+  }
+  
+  
+  #menu ul a:hover{
+    margin-right:-20px;
+    margin-left:20px;
+    background: #03ecec;
+  }
